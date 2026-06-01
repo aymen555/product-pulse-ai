@@ -1,0 +1,10 @@
+tar -xzf product-pulse-ai.tar.gz
+cd product-pulse-ai
+
+git init
+git add .
+git commit -m "🚀 Initial release — Product Pulse AI"
+git branch -M main
+git remote add origin https://github.com/aymen555/product-pulse-ai.git
+git pull origin main --allow-unrelated-histories
+git push -u origin main
